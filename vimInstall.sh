@@ -5,7 +5,7 @@
 
 # Checking for vim
  cd
- if [ -e /usr/share/vim ]
+ if [ -e /usr/bin/vim ]
  then
  echo "Found vim... reinstalling"
  sudo apt reinstall vim -y
